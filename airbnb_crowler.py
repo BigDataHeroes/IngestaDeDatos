@@ -35,7 +35,7 @@ class InsideAirbnbSpider(scrapy.Spider):
             f.write(response.body)
         f.close()
         blob2 = bucket.blob('airbnb.csv.gz')
-        blob2.upload_from_filename(filename='/temp/airbnb.csv.gz')
+        blob2.upload_from_filename(filename='/tmp/airbnb.csv.gz')
 
 def main(request): 
     process = CrawlerProcess({
