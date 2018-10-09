@@ -5,8 +5,10 @@ Created on Mon Oct  8 10:53:29 2018
 @author: Carolina
 """
 import scrapy
+import os
 from scrapy.crawler import CrawlerProcess
 from scrapy.http import Request
+from google.cloud import storage
 
 class InsideAirbnbSpider(scrapy.Spider):
     name = 'blogspider'
@@ -25,14 +27,26 @@ class InsideAirbnbSpider(scrapy.Spider):
         
         
     def save_file(self, response):
-            self.logger.info('Saving File %s', response.url)
-            with open('airbnb.csv.gz', 'wb') as f:
+        self.logger.info('Saving File %s', response.url)
+        client = storage.Client()
+        bucket_name = os.environ.get('BUCKET_NAME')
+        bucket = client.get_bucket(bucket_name)
+
+        blob2 = bucket.blob('airbnb.csv.gz')
+        blob2.upload_from_filename(filename='/tmp/data.txt')    
+
+        with open('airbnb.csv.gz', 'wb') as f:
                 f.write(response.body)
             
-process = CrawlerProcess({
-'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
-})
 
-process.crawl(InsideAirbnbSpider)
-process.start()
+
+def main(request): 
+    process = CrawlerProcess({
+    'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
+    })
+    
+    process.crawl(InsideAirbnbSpider)
+    process.start()
+    
+    
 
