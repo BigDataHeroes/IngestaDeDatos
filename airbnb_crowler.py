@@ -31,7 +31,7 @@ class InsideAirbnbSpider(scrapy.Spider):
         client = storage.Client()
         bucket_name = os.environ.get('BUCKET_NAME')
         bucket = client.get_bucket(bucket_name)
-        with open('/temp/airbnb.csv.gz', 'wb') as f:	
+        with open('/tmp/airbnb.csv.gz', 'wb') as f:	
             f.write(response.body)
         f.close()
         blob2 = bucket.blob('airbnb.csv.gz')
