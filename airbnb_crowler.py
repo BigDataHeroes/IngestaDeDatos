@@ -24,7 +24,6 @@ class InsideAirbnbSpider(scrapy.Spider):
                 url=response.urljoin(href),
                 callback=self.save_file
             )
-            print("MIO " + href)
         
         
     def save_file(self, response):
@@ -34,12 +33,7 @@ class InsideAirbnbSpider(scrapy.Spider):
         bucket = client.get_bucket(bucket_name)
 
         blob2 = bucket.blob('airbnb.csv.gz')
-        blob2.upload_from_filename(filename='/tmp/data.txt')    
-
-        with open('airbnb.csv.gz', 'wb') as f:
-                f.write(response.body)
-            
-
+        blob2.upload_from_file(response.body)    
 
 def main(request): 
     process = CrawlerProcess({
