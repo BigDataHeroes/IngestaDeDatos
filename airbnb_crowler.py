@@ -44,4 +44,5 @@ def main(request):
     
     process.crawl(InsideAirbnbSpider)
     process.start()
+main('abc')
     
