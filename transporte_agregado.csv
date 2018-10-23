@@ -1,0 +1,132 @@
+,Distrito_Nombre,Distrito,Barrio_Nombre,Barrio,Autobus,Metro
+0,Arganzuela,2.0,Acacias,22.0,35.0,
+1,Arganzuela,2.0,Atocha,27.0,24.0,2.0
+2,Arganzuela,2.0,Chopera,23.0,21.0,1.0
+3,Arganzuela,2.0,Delicias,25.0,22.0,1.0
+4,Arganzuela,2.0,Imperial,21.0,34.0,1.0
+5,Arganzuela,2.0,Legazpi,24.0,22.0,2.0
+6,Arganzuela,2.0,Palos de Moguer,26.0,22.0,1.0
+7,Barajas,21.0,Aeropuerto,212.0,24.0,1.0
+8,Barajas,21.0,Alameda de Osuna,211.0,41.0,8.0
+9,Barajas,21.0,Casco HistÃ³rico de Barajas,213.0,8.0,2.0
+10,Barajas,21.0,Corralejos,215.0,34.0,1.0
+11,Barajas,21.0,TimÃ³n,214.0,28.0,
+12,Carabanchel,11.0,Abrantes,117.0,44.0,
+13,Carabanchel,11.0,Buenavista,116.0,84.0,
+14,Carabanchel,11.0,Comillas,111.0,15.0,
+15,Carabanchel,11.0,OpaÃ±el,112.0,22.0,
+16,Carabanchel,11.0,Puerta Bonita,115.0,41.0,
+17,Carabanchel,11.0,San Isidro,113.0,43.0,3.0
+18,Carabanchel,11.0,Vista Alegre,114.0,37.0,1.0
+19,Centro,1.0,Cortes,13.0,29.0,
+20,Centro,1.0,Embajadores,12.0,27.0,
+21,Centro,1.0,Justicia,14.0,17.0,
+22,Centro,1.0,Palacio,11.0,47.0,1.0
+23,Centro,1.0,Sol,16.0,19.0,
+24,Centro,1.0,Universidad,15.0,40.0,3.0
+25,ChamartÃ­n,5.0,Castilla,56.0,61.0,
+26,ChamartÃ­n,5.0,Ciudad JardÃ­n,53.0,19.0,
+27,ChamartÃ­n,5.0,El Viso,51.0,58.0,2.0
+28,ChamartÃ­n,5.0,HispanoamÃ©rica,54.0,55.0,5.0
+29,ChamartÃ­n,5.0,Nueva EspaÃ±a,55.0,49.0,10.0
+30,ChamartÃ­n,5.0,Prosperidad,52.0,38.0,1.0
+31,ChamberÃ­,7.0,Almagro,74.0,33.0,1.0
+32,ChamberÃ­,7.0,Arapiles,72.0,15.0,
+33,ChamberÃ­,7.0,Gaztambide,71.0,14.0,1.0
+34,ChamberÃ­,7.0,Rios Rosas,75.0,30.0,
+35,ChamberÃ­,7.0,Trafalgar,73.0,31.0,2.0
+36,ChamberÃ­,7.0,Vallehermoso,76.0,34.0,4.0
+37,Ciudad Lineal,15.0,Atalaya,158.0,5.0,
+38,Ciudad Lineal,15.0,Colina,157.0,14.0,2.0
+39,Ciudad Lineal,15.0,ConcepciÃ³n,154.0,28.0,
+40,Ciudad Lineal,15.0,Costillares,159.0,29.0,2.0
+41,Ciudad Lineal,15.0,Pueblo Nuevo,152.0,60.0,1.0
+42,Ciudad Lineal,15.0,Quintana,153.0,21.0,3.0
+43,Ciudad Lineal,15.0,San Juan Bautista,156.0,23.0,1.0
+44,Ciudad Lineal,15.0,San Pascual,155.0,25.0,2.0
+45,Ciudad Lineal,15.0,Ventas,151.0,66.0,
+46,Fuencarral - El Pardo,8.0,El Goloso,88.0,15.0,1.0
+47,Fuencarral - El Pardo,8.0,El Pardo,81.0,2.0,
+48,Fuencarral - El Pardo,8.0,Fuentelareina,82.0,13.0,2.0
+49,Fuencarral - El Pardo,8.0,La Paz,85.0,68.0,4.0
+50,Fuencarral - El Pardo,8.0,Mirasierra,87.0,62.0,5.0
+51,Fuencarral - El Pardo,8.0,PeÃ±agrande,83.0,76.0,11.0
+52,Fuencarral - El Pardo,8.0,Pilar,84.0,48.0,2.0
+53,Fuencarral - El Pardo,8.0,Valverde,86.0,133.0,4.0
+54,Hortaleza,16.0,Apostol Santiago,165.0,22.0,2.0
+55,Hortaleza,16.0,Canillas,163.0,55.0,4.0
+56,Hortaleza,16.0,Palomas,161.0,20.0,2.0
+57,Hortaleza,16.0,Pinar del Rey,164.0,77.0,7.0
+58,Hortaleza,16.0,Piovera,162.0,24.0,2.0
+59,Hortaleza,16.0,Valdefuentes,166.0,101.0,3.0
+60,Latina,10.0,Aguilas,107.0,76.0,7.0
+61,Latina,10.0,Aluche,104.0,84.0,2.0
+62,Latina,10.0,Campamento,105.0,28.0,
+63,Latina,10.0,Cuatro Vientos,106.0,13.0,
+64,Latina,10.0,CÃ¡rmenes,101.0,29.0,1.0
+65,Latina,10.0,Lucero,103.0,50.0,
+66,Latina,10.0,Puerta del Angel,102.0,28.0,
+67,Moncloa - Aravaca,9.0,Aravaca,97.0,47.0,3.0
+68,Moncloa - Aravaca,9.0,ArgÃ¼elles,92.0,27.0,1.0
+69,Moncloa - Aravaca,9.0,Casa de Campo,91.0,51.0,
+70,Moncloa - Aravaca,9.0,Ciudad Universitaria,93.0,114.0,18.0
+71,Moncloa - Aravaca,9.0,El PlantÃ­o,96.0,21.0,1.0
+72,Moncloa - Aravaca,9.0,ValdemarÃ­n,95.0,36.0,
+73,Moncloa - Aravaca,9.0,Valdezarza,94.0,34.0,4.0
+74,Moratalaz,14.0,FontarrÃ³n,145.0,36.0,4.0
+75,Moratalaz,14.0,Horcajo,142.0,12.0,3.0
+76,Moratalaz,14.0,Marroquina,143.0,24.0,1.0
+77,Moratalaz,14.0,Media Legua,144.0,27.0,2.0
+78,Moratalaz,14.0,Pavones,141.0,32.0,4.0
+79,Moratalaz,14.0,Vinateros,146.0,25.0,4.0
+80,Puente de Vallecas,13.0,EntrevÃ­as,131.0,77.0,14.0
+81,Puente de Vallecas,13.0,Numancia,136.0,44.0,10.0
+82,Puente de Vallecas,13.0,Palomeras Bajas,133.0,58.0,6.0
+83,Puente de Vallecas,13.0,Palomeras Sureste,134.0,64.0,5.0
+84,Puente de Vallecas,13.0,Portazgo,135.0,39.0,7.0
+85,Puente de Vallecas,13.0,San Diego,132.0,27.0,2.0
+86,Retiro,3.0,Adelfas,32.0,19.0,3.0
+87,Retiro,3.0,Estrella,33.0,24.0,3.0
+88,Retiro,3.0,Ibiza,34.0,21.0,1.0
+89,Retiro,3.0,JerÃ³nimos,35.0,31.0,
+90,Retiro,3.0,NiÃ±o JesÃºs,36.0,17.0,2.0
+91,Retiro,3.0,PacÃ­fico,31.0,28.0,1.0
+92,Salamanca,4.0,Castellana,46.0,27.0,3.0
+93,Salamanca,4.0,Fuente del Berro,43.0,18.0,
+94,Salamanca,4.0,Goya,42.0,41.0,2.0
+95,Salamanca,4.0,Guindalera,44.0,48.0,3.0
+96,Salamanca,4.0,Lista,45.0,25.0,
+97,Salamanca,4.0,Recoletos,41.0,23.0,
+98,San Blas - Canillejas,20.0,Amposta,203.0,11.0,
+99,San Blas - Canillejas,20.0,Arcos,204.0,34.0,
+100,San Blas - Canillejas,20.0,Canillejas,207.0,36.0,1.0
+101,San Blas - Canillejas,20.0,HellÃ­n,202.0,13.0,2.0
+102,San Blas - Canillejas,20.0,Rejas,206.0,36.0,2.0
+103,San Blas - Canillejas,20.0,Rosas,205.0,41.0,4.0
+104,San Blas - Canillejas,20.0,Salvador,208.0,33.0,5.0
+105,San Blas - Canillejas,20.0,Simancas,201.0,58.0,
+106,TetuÃ¡n,6.0,Almenara,64.0,35.0,
+107,TetuÃ¡n,6.0,Bellas Vistas,61.0,22.0,4.0
+108,TetuÃ¡n,6.0,Berruguete,66.0,12.0,2.0
+109,TetuÃ¡n,6.0,Castillejos,63.0,25.0,1.0
+110,TetuÃ¡n,6.0,Cuatro Caminos,62.0,38.0,1.0
+111,TetuÃ¡n,6.0,Valdeacederas,65.0,31.0,1.0
+112,Usera,12.0,Almendrales,124.0,28.0,
+113,Usera,12.0,MoscardÃ³,125.0,17.0,
+114,Usera,12.0,Orcasitas,121.0,41.0,1.0
+115,Usera,12.0,Orcasur,122.0,36.0,1.0
+116,Usera,12.0,Pradolongo,127.0,15.0,
+117,Usera,12.0,San FermÃ­n,123.0,25.0,1.0
+118,Usera,12.0,ZofÃ­o,126.0,22.0,2.0
+119,VicÃ¡lvaro,19.0,Casco histÃ³rico de VicÃ¡lvaro,191.0,55.0,3.0
+120,VicÃ¡lvaro,19.0,El CaÃ±averal,194.0,1.0,
+121,VicÃ¡lvaro,19.0,Valdebernardo,192.0,37.0,5.0
+122,VicÃ¡lvaro,19.0,Valderrivas,193.0,20.0,
+123,Villa de Vallecas,18.0,Casco HistÃ³rico de Vallecas,181.0,62.0,6.0
+124,Villa de Vallecas,18.0,Ensanche de Vallecas,183.0,57.0,
+125,Villa de Vallecas,18.0,Santa Eugenia,182.0,38.0,5.0
+126,Villaverde,17.0,Butarque,173.0,20.0,
+127,Villaverde,17.0,Los Angeles,175.0,39.0,4.0
+128,Villaverde,17.0,Los Rosales,174.0,44.0,5.0
+129,Villaverde,17.0,San Cristobal,172.0,9.0,
+130,Villaverde,17.0,"Villaverde Alto, Casco HistÃ³rico de Villaverde",171.0,75.0,2.0

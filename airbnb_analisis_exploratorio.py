@@ -5,13 +5,16 @@ from shapely.geometry import shape, Point
 
 
 def getInputPath():
-  return "airbnb.csv"
+    return "airbnb.csv"
 
 def getOutputPath():
-  return "airbnb_clean.csv"
+    return "airbnb_clean.csv"
 
 def getBaseDataPath():
-  return ""
+    return ""
+
+def getOutputAggPath():
+    return 'airbnb_aggregate.csv'
 
 def deleteColumns(datos):
     datos = datos.iloc[:,37:68]
@@ -115,3 +118,21 @@ for index, row in datos.loc[datos["monthly_price"].isna()].iterrows():
 
 
 datos.to_csv(path_or_buf=getOutputPath(), sep=",")
+
+grouped = datos.groupby(by=['neighbourhood_group_cleansed','neighbourhood_group_cleansed_index','neighbourhood_cleansed', 'neighbourhood_cleansed_index'], as_index=False)
+datos_agregados = grouped.agg({
+                      'price':np.mean,
+                      'weekly_price':np.mean,
+                      'monthly_price':np.mean,
+                      'zipcode':'count'
+                  }).rename(columns={
+                      'zipcode':'Cuenta',
+                      'neighbourhood_group_cleansed':'Distrito_Nombre',
+                      'neighbourhood_cleansed':'Barrio_Nombre',
+                      'neighbourhood_cleansed_index':'Barrio',
+                      'property_type':'Tipo_propiedad',
+                      'price': 'Precio_noche',
+                      'weekly_price': 'Precio_semana',
+                      'monthly_price':'Precio_mes'
+                  })
+datos_agregados.to_csv(path_or_buf=getOutputAggPath(), sep=",")
