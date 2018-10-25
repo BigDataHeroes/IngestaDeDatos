@@ -1,4 +1,4 @@
-,neighbourhood_cleansed,neighbourhood_group_cleansed,zipcode,latitude,longitude,is_location_exact,property_type,price,weekly_price,monthly_price,neighbourhood_cleansed_index,neighbourhood_group_cleansed_index,property_type_index
+id,neighbourhood_cleansed,neighbourhood_group_cleansed,zipcode,latitude,longitude,is_location_exact,property_type,price,weekly_price,monthly_price,neighbourhood_cleansed_index,neighbourhood_group_cleansed_index,property_type_index
 0,Embajadores,Centro,28012.0,40.413418179848634,-3.706838445919361,1,Apartment,64.0,448.0,750.0,12,1,0
 1,Los Cármenes,Latina,28047.0,40.4034095295952,-3.740841968636018,0,Apartment,17.0,98.0,370.0,101,10,0
 2,Universidad,Centro,28004.0,40.42202187481732,-3.703954103136428,1,Apartment,60.0,450.0,1200.0,15,1,0
